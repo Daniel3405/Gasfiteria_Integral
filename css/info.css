@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+.header {
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.fila {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.info-box {
+    flex: 1;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    cursor: default;
+}
+
+.info-box:hover {
+    background-color: deepskyblue;
+}
