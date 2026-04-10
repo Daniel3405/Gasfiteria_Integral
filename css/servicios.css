@@ -1,0 +1,30 @@
+.serv-box {
+    border: 2px solid black;
+    background-color: lightblue;
+}
+
+.serv-box input {
+    display: none;
+}
+
+.box-click {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.box-click:hover {
+    background-color: deepskyblue;
+}
+
+.contenido {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.info-box input:checked + .box-click .contenido {
+    max-height: 120px;
+    margin-top: 10px;
+}
