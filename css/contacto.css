@@ -1,0 +1,11 @@
+input {
+    display: none;
+}
+
+.contenido {
+    display: none;
+}
+
+input:checked + label + .contenido {
+    display: block;
+}
