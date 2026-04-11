@@ -5,51 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gafitería Integral</title>
     <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/estructura.css">
+    <link rel="stylesheet" href="css/ubicacion.css">
 </head>
 <body>
+<div class="fila">
 
-<!-- INFORMACIÓN -->
-<div class="info-box">
+    <!-- INFORMACIÓN -->
+    <div class="info-box">
+        <input type="checkbox" id="toggle-info">
+        
+        <label for="toggle-info" class="box-click">
+            <h3>Información</h3>
+        </label>
 
-    <input type="checkbox" id="toggle-info">
-    
-    <label for="toggle-info" class="box-click">
-        <h3>Información</h3>
-    </label>
+        <div class="contenido">
+            <p>Información por rellenar de la empresa.</p>
+        </div>
+    </div>
 
-    <div class="contenido">
-        <p>Información por rellenar de la empresa :3.</p>
+    <!-- SERVICIOS -->
+    <div class="info-box">
+        <input type="checkbox" id="toggle-servicios">
+        
+        <label for="toggle-servicios" class="box-click">
+            <h3>Servicios</h3>
+        </label>
+
+        <div class="contenido">
+            <p>Reparación de fugas, instalación de tuberías, destapes y mantención.</p>
+        </div>
     </div>
 
 </div>
+<div class="fila">
 
-<!-- SERVICIOS -->
-<div class="info-box">
+    <!-- CONTACTO -->
+    <div class="info-box">
+        <input type="checkbox" id="toggle-contacto">
 
-    <input type="checkbox" id="toggle-servicios">
-    
-    <label for="toggle-servicios" class="box-click">
-        <h3>Servicios</h3>
-    </label>
+        <label for="toggle-contacto" class="box-click">
+            <h3>Contacto</h3>
+        </label>
 
-    <div class="contenido">
-        <p>Reparación de fugas, instalación de tuberías, destapes, mantención.</p>
+        <div class="contenido">
+            <p>Teléfono: 962527196</p>
+            <p>Correo: gasfiteriaintegralcopiapo@gmail.com</p>
+        </div>
     </div>
+<div class="info-box ubicacion-box">
 
-</div>
+    <input type="checkbox" id="toggle-ubicacion">
 
-<!-- CONTACTO -->
-<div class="info-box">
-
-    <input type="checkbox" id="toggle-contacto">
-
-    <label for="toggle-contacto" class="box-click">
-        <h3>Contacto</h3>
+    <label for="toggle-ubicacion" class="box-click">
+        <h3>Ubicación</h3>
     </label>
 
     <div class="contenido">
-        <p>Teléfono: 962527196</p>
-        <p>Correo: gasfiteriaintegralcopiapo@gmail.com</p>
+        <p>Copiapó, Chile</p>
+        <p>Janequeo 1184 Balmaceda Norte</p>
     </div>
 
 </div>
