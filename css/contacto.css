@@ -1,28 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f4e5f;
+    color: white;
+}
+
+
 input {
     display: none;
 }
 
-.contenido {
-    display: none;
-}
-
-input:checked + label + .contenido {
-    display: block;
-}
 
 .info-box {
     border: 2px solid white;
-    margin-bottom: 20px; /* separación */
+    margin-bottom: 20px; 
     padding: 10px;
 }
 
-.contenido {
-    margin-top: 10px;
-    padding: 10px;
-    background-color: rgba(255,255,255,0.1);
-}
 
 .box-click {
     display: block;
-    padding: 10px;
+    padding: 15px; 
+    cursor: pointer;
+}
+
+
+.box-click h3 {
+    margin: 0;
+}
+
+
+.contenido {
+    display: none;
+    margin-top: 15px; 
+    padding: 15px;   
+    background-color: rgba(255,255,255,0.1);
+}
+
+
+input:checked + label + .contenido {
+    display: block;
 }
