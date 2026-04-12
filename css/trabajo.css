@@ -1,6 +1,6 @@
 .trabajo-box {
     border: 2px solid black;
-    background-color: rgb(255, 136, 0);
+    background-color: sandybrown;
 }
 
 .trabajo-box input {
@@ -15,7 +15,7 @@
 }
 
 .box-click:hover {
-    background-color: rgb(255, 136, 0);
+    background-color: sandybrown;
 }
 
 .contenido {

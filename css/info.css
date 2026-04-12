@@ -24,7 +24,7 @@
     transition: 0.3s ease;
 }
 
-.info-box input:checked + .box-click .contenido {
+.info-box input:checked + .box-click + .contenido {
     max-height: 120px;
     margin-top: 10px;
 }
