@@ -18,13 +18,16 @@
     height: 100%;
 }
 
+.box-click6:hover {
+    background-color: sandybrown;
+}
 .ubicacion-box .contenido {
     max-height: 0;
     overflow: hidden;
     transition: 0.3s ease;
 }
 
-.ubicacion-box input:checked + label + .contenido {
+.ubicacion-box input:checked + label + .box-click6 + .contenido {
     max-height: 150px;
     margin-top: 10px;
 }

@@ -18,7 +18,7 @@
     height: 100%;
 }
 
-.box-click:hover {
+.box-click3:hover {
     background-color: moccasin;
 }
 
@@ -28,7 +28,7 @@
     transition: 0.3s ease;
 }
 
-.servicios-box input:checked + .box-click + .contenido {
+.servicios-box input:checked + .box-click3 + .contenido {
     max-height: 120px;
     margin-top: 10px;
 }

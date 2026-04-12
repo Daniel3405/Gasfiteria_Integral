@@ -18,8 +18,8 @@
     height: 100%;
 }
 
-.box-click:hover {
-    background-color: yellow;
+.box-click2:hover {
+    background-color: rgb(251, 251, 251);
 }
 
 .contenido {
@@ -28,7 +28,7 @@
     transition: 0.3s ease;
 }
 
-.fortalezas-box input:checked + .box-click + .contenido {
+.fortalezas-box input:checked + .box-click2 + .contenido {
     max-height: 120px;
     margin-top: 10px;
 }

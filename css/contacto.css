@@ -18,7 +18,7 @@
     height: 100%;
 }
 
-.box-click:hover {
+.box-click1:hover {
     background-color: salmon;
 }
 
@@ -29,7 +29,7 @@
 }
 
 
-.contacto-box input:checked + .box-click + .contenido {
+.contacto-box input:checked + .box-click1 + .contenido {
     max-height: 120px;
     margin-top: 10px;
 }
