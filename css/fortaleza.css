@@ -29,6 +29,6 @@
 }
 
 .fortalezas-box input:checked + .box-click2 + .contenido {
-    max-height: 120px;
+    max-height: 150px;
     margin-top: 10px;
 }
