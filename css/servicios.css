@@ -4,7 +4,7 @@
     width: 3000px;
     height: 100px;
     display: inline-block;
-    margin: 10px;
+    margin: 30px;
 }
 
 .servicios-box input {
@@ -30,5 +30,5 @@
 
 .servicios-box input:checked + .box-click4 + .contenido {
     max-height: 120px;
-    margin-top: 10px;
+    margin-top: 0px;
 }

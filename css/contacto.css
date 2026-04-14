@@ -4,7 +4,7 @@
     width: 3000px;
     height: 100px;
     display: inline-block;
-    margin: 10px;
+    margin: 30px;
 }
 
 .contacto-box input {
@@ -30,6 +30,6 @@
 
 
 .contacto-box input:checked + .box-click1 + .contenido {
-    max-height: 120px;
-    margin-top: 10px;
+    max-height: 140px;
+    margin-top: 0px;
 }
