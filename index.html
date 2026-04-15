@@ -3,32 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gafitería Integral</title>
+    <title>Gasfitería Integral</title>
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/estructura.css">
     <link rel="stylesheet" href="css/ubicacion.css">
+    <link rel="stylesheet" href="css/titulo.css">
+    <link rel="stylesheet" href="css/trabajo.css">
+    <link rel="stylesheet" href="css/fortaleza.css">
+    <link rel="stylesheet" href="css/servicios.css">
+    <link rel="stylesheet" href="css/info.css">
 </head>
+
 <body>
+    <header style="display: flex; align-items: center; justify-content: center; gap: 30px;">
+        <h1 style="margin: 0; font-size: 80px;">
+            Gafitería
+        </h1>
+        
+        <img src="imagenes/logo.jpg" alt="Logo" width="150">
+
+        <h1 style="margin: 0; font-size: 80px;">
+            Integral
+        </h1>
+    </header>
 <div class="fila">
 
-    <!-- INFORMACIÓN -->
-    <div class="info-box">
-        <input type="checkbox" id="toggle-info">
-        
-        <label for="toggle-info" class="box-click">
-            <h3>Información</h3>
-        </label>
 
-        <div class="contenido">
-            <p>Información por rellenar de la empresa.</p>
-        </div>
-    </div>
 
     <!-- SERVICIOS -->
-    <div class="info-box">
+    <div class="servicios-box">
         <input type="checkbox" id="toggle-servicios">
         
-        <label for="toggle-servicios" class="box-click">
+        <label for="toggle-servicios" class="box-click4">
             <h3>Servicios</h3>
         </label>
 
@@ -37,23 +43,48 @@
         </div>
     </div>
 
+    <!-- INFO -->
+    <div class="informacion-box">
+        <input type="checkbox" id="toggle-informacion">
+        
+        <label for="toggle-informacion" class="box-click3">
+            <h3>Información</h3>
+        </label>
+
+        <div class="contenido">
+            <p>Información por rellenar de la empresa.</p>
+        </div>
+    </div>    
+
 </div>
 
  <div class="fila">
 
-    <!-- UBICACIÓN -->
-    <div class="info-box ubicacion-box">
+    <!-- CONTACTO -->
+    <div class="info-box">
+        <input type="checkbox" id="toggle-contacto">
 
-        <input type="checkbox" id="toggle-ubicacion">
-
-        <label for="toggle-ubicacion" class="box-click">
-            <h3>Ubicación</h3>
+        <label for="toggle-contacto" class="box-click">
+            <h3>Contacto</h3>
         </label>
 
         <div class="contenido">
-            <p>Copiapó, Chile</p>
-            <p>Janequeo 1184 Balmaceda Norte</p>
+            <p>Teléfono: 962527196</p>
+            <p>Correo: gasfiteriaintegralcopiapo@gmail.com</p>
         </div>
+    </div>
+<div class="info-box ubicacion-box">
+
+        <input type="checkbox" id="toggle-ubicacion">
+
+    <label for="toggle-ubicacion" class="box-click">
+        <h3>Ubicación</h3>
+    </label>
+
+    <div class="contenido">
+        <p>Copiapó, Chile</p>
+        <p>Janequeo 1184 Balmaceda Norte</p>
+    </div>
 
     </div>
 
