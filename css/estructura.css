@@ -2,14 +2,19 @@ body {
     margin: 30px;
 }
 
-
 .fila {
     display: flex;
-    gap: 40px;
+    gap: 400px;
     margin-bottom: 20px;
 }
 
+h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
 
-.info-box {
-    flex: 1;
+.contenido {
+    max-height: none;
+    overflow: visible;
 }

@@ -1,34 +1,6 @@
 .trabajo-box {
     border: 2px solid rgb(89, 0, 255);
     background-color: rgb(246, 0, 0);
-    width: 3000px;
-    height: 100px;
-    display: inline-block;
-    margin: 30px;
-}
-
-.trabajo-box input {
-    display: none;
-}
-
-.box-click5 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-}
-
-.box-click5:hover {
-    background-color: sandybrown;
-}
-
-.contenido {
-    max-height: 0;
-    overflow: hidden;
-    transition: 0.3s ease;
-}
-
-.trabajo-box input:checked + .box-click5 + .contenido {
-    max-height: 120px;
-    margin-top: 10px;
+    width: 300px;
+    padding: 15px;
 }
