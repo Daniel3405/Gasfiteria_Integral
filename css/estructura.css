@@ -1,5 +1,5 @@
 body {
-    margin: 30px;
+    background-color: #F5F5F5;
 }
 
 .fila {
@@ -19,4 +19,14 @@ h3 {
 .contenido {
     max-height: none;
     overflow: visible;
+}
+
+
+.servicios-box,
+.info-box,
+.fortalezas-box,
+.trabajo-box,
+.contacto-box,
+.ubicacion-box {
+    border-radius: 10px;
 }
