@@ -1,5 +1,7 @@
 body {
     background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
 }
 
 .fila {
@@ -21,7 +23,6 @@ h3 {
     overflow: visible;
 }
 
-
 .servicios-box,
 .info-box,
 .fortalezas-box,
@@ -34,16 +35,20 @@ h3 {
 .footer {
     background: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .footer-content {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     max-width: 900px;
     margin: 0 auto;
-    gap: 40px;
+    gap: 20px;
+    text-align: center;
 }
 
 .footer-logo img {
