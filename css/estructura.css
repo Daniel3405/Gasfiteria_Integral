@@ -30,3 +30,38 @@ h3 {
 .ubicacion-box {
     border-radius: 10px;
 }
+
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.footer-logo img {
+    display: block;
+    max-width: 120px;
+    height: auto;
+}
+
+.footer-contacto {
+    text-align: center;
+}
+
+.footer-contacto h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-contacto a {
+    color: #fff;
+    text-decoration: underline;
+}
