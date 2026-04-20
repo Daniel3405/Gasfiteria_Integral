@@ -65,3 +65,18 @@ h3 {
     color: #fff;
     text-decoration: underline;
 }
+
+.footer-redes {
+    text-align: center;
+}
+
+.footer-redes h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-redes a {
+    display: inline-block;
+    margin: 0 6px;
+    vertical-align: middle;
+}
