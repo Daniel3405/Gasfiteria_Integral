@@ -6,7 +6,6 @@ body {
 
 .fila {
     display: flex;
-    gap: 40px;
     margin-bottom: 20px;
     flex-wrap: wrap;
     justify-content: center;
@@ -23,12 +22,9 @@ h3 {
     overflow: visible;
 }
 
-.servicios-box,
 .info-box,
 .fortalezas-box,
-.trabajo-box,
-.contacto-box,
-.ubicacion-box {
+.trabajo-box {
     border-radius: 10px;
 }
 
@@ -51,7 +47,7 @@ h3 {
     text-align: center;
 }
 
-.footer-logo img {
+.footer-log img{
     display: block;
     max-width: 120px;
     height: auto;
